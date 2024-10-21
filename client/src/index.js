@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+axios.defaults.baseURL = 'http://localhost:5000';
 root.render(
   <React.StrictMode>
     <App />
