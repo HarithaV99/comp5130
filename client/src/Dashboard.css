@@ -5,7 +5,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../public/1.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -265,57 +265,3 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: #b100cd;
 }
-
-.event-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    background-image: url('image.jpg'); /* Add your image path here */
-    background-size: cover; /* Make the image cover the entire grid */
-    background-position: center; /* Center the image */
-    padding: 20px; /* Add padding if needed */
-  }
-  
-  .event-card {
-    border: 1px solid #b100cd;
-    padding: 15px;
-    border-radius: 8px;
-    background-color: #ffffff; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    transition: transform 0.2s ease, box-shadow 0.2s ease; 
-    min-width: 300px;
-    max-width: 300px; 
-    margin: 15px auto;
-    text-align: center;
-  }
-  .event-card:hover {
-    transform: translateY(-5px); /* Lift the card on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
-}
-
-.event-image {
-    width: 100%; /* or specific width */
-    height: 200px; /* or specific height */
-    object-fit: cover; /* maintains aspect ratio */
-    border-radius: 8px; /* optional: for rounded corners */
-  }
-  
-
-/* Optional: Add text styling inside the card */
-.event-card h2 {
-    color: #b100cd;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.event-card p {
-    color: #333;
-    line-height: 1.5;
-}
-  
-  .register-button {
-    background-color: white;
-    border: none;
-    color: blue;
-  }
-  
